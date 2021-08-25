@@ -1,0 +1,38 @@
+
+@media only screen and (max-width :25.875em) and (max-height:46em){
+    #container{display: none;}
+    .col-dia-chi{display: none;}
+    .col-time{display: none;}
+    .col-follow {display:none;}
+    .col-fb-insta{display: none;}
+    .nav{
+        height: 50px;
+    }
+    .nav-logo img{
+        height: 50px;
+        width: 100px;
+    }
+    .nav-logo{
+        display: block;
+        margin-left: 3%;
+    }
+    .btn-search{
+        display: none;
+    }
+    .nav-items{display: none;}
+    .nav-Hotline{display: none;}
+    .nav-btn{
+        display: flex;
+        position: relative;
+        left: 60%;
+        margin: 0;
+        align-items: center;
+    }
+    .input-group{
+        display: block;
+    
+    }
+
+}
+
+

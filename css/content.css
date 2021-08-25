@@ -1,0 +1,144 @@
+#content{
+    background-color:rgb(43, 42, 42);
+}
+
+.column{
+    display: flex;
+}
+.content-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 0 0;
+    align-content: center;
+}
+.ct-heading p,
+.heading p{
+    color: wheat;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+}
+.ct-heading a,
+.heading a{
+    display: flex;
+    color: wheat;
+    justify-content: center;
+    padding: 15px 1px 8px;
+    margin: 0 0 10px;
+
+}
+.ct-text-heading,
+.text-heading {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+   
+}
+.section-heading {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+
+}
+.section-text{
+    color: white;
+    text-align: left;
+    font-weight: 200;
+    line-height: 1.9;
+    font-size: 14px;
+
+}
+.content-sp-heading{
+    margin-top: 4%;
+}
+
+.content-sp a{
+    display: flex;
+    background-color: rgb(58, 55, 55);
+    color: wheat;
+    border: 1px solid #EAD4A4;
+    width: 400px;
+    height: 60px;
+    padding: 15px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.content a:hover,
+.content-sp a:hover{
+    background-color: grey;
+    color:white;
+    text-decoration: none;
+}
+
+#content .line{
+    margin: 30px 0;
+    height:2px;
+    color:wheat;
+    background-color:wheat
+}
+
+.row-cols-2{
+    display: flex;
+}
+
+ .content-text-slider img{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 159, 159)ey;
+    opacity: 0.5; 
+ }
+
+ .text-heading-slider{
+    height: 50px;
+
+} 
+.heading-slider{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    color: wheat;
+    position: relative;
+    bottom: 125px;
+    padding: 0px 15px;
+
+}
+.text-slider a{
+    position: relative;
+    bottom: 130px;
+    color: white;
+    padding: 5px 20px;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+.all-img-heading{
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+}
+.content-heading-ct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-text-heading p{
+    color: white;
+    padding: 8px 0
+}
+
+#content .line-footer{
+    margin: 30px 0;
+    height:1px;
+    background-color:rgb(43, 42, 42);
+}
+

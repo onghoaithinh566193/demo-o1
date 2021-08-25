@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+
+#header{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#container{
+    background-color: wheat;
+    height: 30px;
+
+}
+.col-sm{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.col-dia-chi{
+    width: 400px;
+    position: relative;
+    left: 120px;
+}
+.col-time{
+    width: 400px;
+    margin: 0 120px;
+}
+.col-fb-insta img{
+    width: 18px;
+}
+.col-fb-insta{
+    padding: 0 5px;
+}
+
+.nav-logo img{
+    width: 100px;
+
+}
+.nav-logo{
+    position: relative;
+    margin-left: 120px;
+}
+.nav{
+    height: 60px;
+    align-items: center;
+}
+.nav-link{
+    color: wheat;
+    text-transform: uppercase;
+}
+.nav-Hotline{
+    color: white;
+    margin: 0;
+    position: relative;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+     left: 120px;
+}
+.nav-btn{
+    width: 28px;
+    height: 28px;
+    font-size: 25px;
+    color: white;
+    display: none;
+}
+.nav-overlay{
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top:0;left: 0;right:0;bottom: 0;
+    display: none;
+    animation: fadeIn linear 0.5s;
+}
+.nav-logo-mobile img{
+    width: 150px;
+    margin-bottom: 50px;
+}
+.ti-close{
+    font-size: 32px;
+    color: white;
+    position: fixed;
+    left: 17rem;
+    top: 2rem;
+}
+.nav-mobile{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    width: 320px;
+    max-width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    transform: translateX(-350px);
+    transition:transform linear 1s;
+}
+.nav-mobile-items{
+    list-style: none;
+    padding: 25px 0;
+    position: relative;
+    font-size: 20px;
+}
+.nav-mobile-link{
+    color: white;
+}
+.nav-btn-input{
+    display: none;
+}
+.nav-btn-input:checked ~ .nav-overlay{
+    display: block;
+}
+.nav-btn-input:checked ~ .nav-mobile{
+    transform: translateX(0%);
+}
+.input-group{
+    display: none;
+}
+.form-outline{
+    position: relative;
+    bottom: 50px;
+    width: 90%;
+    margin: 15px -15px;
+    font-size: 25px;
+}
+.btn-search {
+    background-color:rgba(0,0,0,0.3);
+    color: white;
+}
+.line-hr{
+    margin: 25px 0;
+    height: 10px;
+    width: 260px;
+    background-color: darkorange;
+    border-radius: 5px 50px;
+
+}
+.ti-home,
+.ti-gallery,
+.ti-headphone-alt,
+.ti-location-pin,
+.ti-paint-roller{
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

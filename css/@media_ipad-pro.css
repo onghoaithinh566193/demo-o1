@@ -1,0 +1,89 @@
+@media only screen and (max-width :40.625em){
+    body{
+        display: none;
+    }
+}
+
+@media only screen and (min-width :40.625em) and (max-width :64em) {
+    /* ----------header----------------- */
+    #container{display: none;}
+    .col-dia-chi{display: none;}
+    .col-time{display: none;}
+    .col-follow {display:none;}
+   
+    .nav-logo img{
+       width: 20%;
+    }
+    .nav-logo{
+        display:flex;
+        margin-left: 10%;
+    }
+    .btn-search{
+        width: 250px;
+        display: flex;
+        position: absolute;
+        right: 57px;
+    }
+    .nav-items{display: none;}
+    .nav-Hotline{display: none;}
+    .nav-btn{
+        display: flex;
+        position: relative;
+        left: 10%;
+        margin: 0;
+        align-items: center;
+    } .col-fb-insta{display: none;}
+   
+    .input-group{
+        display: block;
+
+    }
+
+    /* ----------slider-carousel----------------- */
+    .carousel-item img{
+        display: block;
+        padding-top: 60px;
+    
+    }
+ 
+    /* ----------content----------------- */
+    
+   
+       
+    #content .ct-heading p, .heading p{
+        display: flex;
+        font-size: 30px;
+        flex-direction: column;
+
+    }
+    #content .ct-text-heading p, .text-heading p{
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    .container-fluid .column {
+        display: block;
+        transform: scale3d(1.2, 1.2,1.2);
+        margin-bottom: 30%;   
+    }
+    .text-heading-slider{
+        padding-top: 15%;
+    }
+    .text-heading-slider p{
+        font-size: 20px;
+        margin: 0%;
+    }
+     .line-3 {
+        margin: auto;
+        position: relative;
+        height: 1px;
+        background-color: black;
+        width: 100%;
+    
+    }
+     .container-fluid-call{
+        display: flex;
+        flex-direction: column;
+     }  
+  
+} 
