@@ -46,11 +46,8 @@
 }
 .footer-follow{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    position: relative;
-    float: right;
     bottom: 44px;
+    justify-content: flex-end;
 } 
 .nav-item-footer a{
     color:black;
