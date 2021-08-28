@@ -1,0 +1,29 @@
+#heading-lienhe{
+    background-color: rgb(43, 42, 42);
+
+}
+#heading-lienhe .navbar{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#heading-lienhe p{
+    display: flex;
+    color: white;
+    padding-top: 200px;
+    font-size: 50px;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+#lienhe-col{
+    display: flex;
+    width: 100%;
+    background: gray;
+   
+    flex-direction: column;
+    justify-content: center;
+}
+#col-map .mb-4{
+    margin-bottom: -0.5rem !important;
+}

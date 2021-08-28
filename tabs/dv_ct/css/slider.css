@@ -1,0 +1,62 @@
+#container-fluid{
+    background-color: rgb(51, 50, 50);;
+}
+.silder-img img{ 
+    width: 100%;
+   height: 100%;
+   padding: 100px 0;
+}
+
+.container-heading h3{
+    font-size: 28px;
+    padding: 5px 0;
+    font-weight: 400;
+}
+.container-heading p{
+    text-align: justify;
+}
+.container-heading-text li{
+    text-align: justify;
+    list-style: circle;
+    
+}
+.container-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    font-size: 14px;
+    bottom: 50rem;
+    position: relative;
+    opacity: 0.8;
+    line-height: 1.9;
+    padding: 0 45px;
+}
+.ti-check-box, .ti-agenda, .ti-user{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.slider-text-heading {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.slider-text-heading p{
+    font-size: 12px;
+    text-align: center;
+}
+.content{
+    padding: 70px 0;
+}
+.line{
+    background-color: wheat;
+    position: relative;
+    bottom: 18px;
+    height: 3px;
+
+}

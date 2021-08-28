@@ -1,0 +1,36 @@
+#congtrinh{
+    background-color:rgb(43, 42, 42);
+}
+
+.container-ct{
+    padding: 180px 0 0 ;
+}
+
+.content-heading-ct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ct-heading p{
+    color: wheat;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+}
+.ct-text-heading {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+   
+}
+.p-3 p:hover,
+.ct-heading a:hover{
+    color:grey;
+    text-decoration: none;
+}
+
+.all-img-heading{
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+}

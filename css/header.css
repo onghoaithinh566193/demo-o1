@@ -44,13 +44,15 @@
     margin-left: 120px;
 }
 .nav{
-    height: 80px;
+    height: 70px;
     align-items: center;
     align-content: center;
+    background-color: black;
 }
 .nav-link{
-    color: wheat;
+    color: white;
     text-transform: uppercase;
+    
 }
 .nav-Hotline{
     color: white;
@@ -60,7 +62,33 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-     left: 120px;
+    left: 120px;
+}
+.nav a{
+    position: relative;
+}
+
+.nav a::after{
+    background: none repeat scroll 0 0 transparentscroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+
+}
+.nav a:hover::after{
+    width: 100%; 
+    left: 0; 
+}
+
+.nav-mobile-items a:hover,
+ .nav a:hover {
+     color:rgb(165, 158, 158);     
+     text-decoration: none;
 }
 .nav-btn{
     width: 28px;
@@ -96,6 +124,7 @@
     top: 2rem;
 }
 .nav-mobile{
+    background-color: black;
     position: fixed;
     top: 0;
     left: 0;
@@ -157,6 +186,9 @@
     font-size: 20px;
     padding: 0 5px;
 }
+
+
+
 
 @keyframes fadeIn{
     from{

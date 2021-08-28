@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+}
+
+#header{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
+#container{
+    background-color: wheat;
+    height: 30px;
+}
+.col-sm{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.col-dia-chi{
+    width: 400px;
+    position: relative;
+    left: 120px;
+}
+.col-time{
+    width: 400px;
+    margin: 0 120px;
+}
+.col-fb-insta img{
+    width: 18px;
+}
+.col-fb-insta{
+    padding: 0 5px;
+}
+
+.nav-logo img{
+    width: 100px;
+
+}
+.nav-logo{
+    position: relative;
+    margin-left: 120px;
+}
+.nav{
+    height: 70px;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+  
+}
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    
+}
+.nav-Hotline{
+    color: white;
+    margin: 0;
+    position: relative;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    left: 120px;
+}
+.nav a{
+    position: relative;
+}
+
+.nav a::after{
+    background: none repeat scroll 0 0 transparentscroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+
+}
+.nav a:hover::after{
+    width: 100%; 
+    left: 0; 
+}
+
+.nav-mobile-items a:hover,
+ .nav a:hover{
+     color:rgb(165, 158, 158);     
+     text-decoration: none;
+}
+.nav-btn{
+    width: 28px;
+    height: 28px;
+    font-size: 25px;
+    color: white;
+    display: none;
+}
+.btn-menu{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    left: 80%;
+    bottom: 30px;
+}
+.nav-overlay{
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top:0;left: 0;right:0;bottom: 0;
+    display: none;
+    animation: fadeIn linear 0.5s;
+}
+.nav-logo-mobile img{
+    width: 150px;
+    margin-left: 15px;
+    margin-top: -90px;
+}
+.ti-close{
+    font-size: 32px;
+    color: white;
+    position: fixed;
+    left: 17rem;
+    top: 2rem;
+}
+.nav-mobile{
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    width: 320px;
+    max-width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    transform: translateX(-350px);
+    transition:transform linear 1s;
+}
+.nav-mobile-items{
+    list-style: none;
+    padding: 25px 20px;
+    position: relative;
+    font-size: 20px;
+}
+.nav-mobile-link{
+    color: white;
+}
+.nav-btn-input{
+    display: none;
+}
+.nav-btn-input:checked ~ .nav-overlay{
+    display: block;
+}
+.nav-btn-input:checked ~ .nav-mobile{
+    transform: translateX(0%);
+}
+.input-group{
+    display: none;
+}
+.form-outline{
+    position: relative;
+    bottom: 50px;
+    width: 90%;
+    margin: 15px -15px;
+    font-size: 25px;
+}
+.btn-search {
+    background-color:rgba(0,0,0,0.3);
+    color: white;
+}
+.line-hr{
+    margin: 25px 0;
+    height: 10px;
+    width: 260px;
+    background-color: darkorange;
+    border-radius: 5px 50px;
+
+}
+.ti-home,
+.ti-gallery,
+.ti-headphone-alt,
+.ti-location-pin,
+.ti-paint-roller{
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+
+    }
+}
+
+.nav-menu-dv{
+    background-color:rgb(34, 32, 32);
+    height: 40px;
+    font-size: 12px;
+    
+    align-items: center;
+}
+.menu-dv a{
+    position: relative;
+    left: 130px;
+    color: grey;
+    padding: 0 10px;
+}
+.ti-angle-double-right{
+    color: grey;        
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
