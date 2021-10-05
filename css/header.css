@@ -105,6 +105,9 @@
     left: 80%;
     bottom: 30px;
 }
+/* .btn-menu:hover{
+    cursor: pointer;
+} */
 .nav-overlay{
     background-color: rgba(0,0,0,0.3);
     position: fixed;
@@ -124,6 +127,7 @@
     top: 2rem;
 }
 .nav-mobile{
+    cursor: pointer;
     background-color: black;
     position: fixed;
     top: 0;
@@ -137,6 +141,9 @@
     text-transform: uppercase;
     transform: translateX(-350px);
     transition:transform linear 1s;
+}
+.nav-mobile-close{
+    cursor: pointer;
 }
 .nav-mobile-items{
     list-style: none;

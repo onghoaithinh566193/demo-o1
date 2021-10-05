@@ -35,7 +35,9 @@
         left: 10%;
         margin: 0;
         align-items: center;
-    } .col-fb-insta{display: none;}
+        cursor: pointer;
+    } 
+    .col-fb-insta{display: none;}
    
     .input-group{
         display: block;
@@ -91,6 +93,13 @@
     #footer .footer-follow {
         display: none;
      }
+
+    #footer .mx-auto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
 
 
 
